@@ -22,7 +22,7 @@ def sign_up():
 
     if not user_exists(email=email, username=username):
         users.append((email, username, password))
-        return "<h2>New user has been created</h2>"
+        return "<h2>my name is yomna, and i like cupcakes</h2>"
     else:
         return "<h2>This user already exists</h2>"
 
